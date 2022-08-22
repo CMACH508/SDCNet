@@ -1,6 +1,9 @@
 # SDCNet
 This is the implementation code of SDCNet, a GCN-based method, to efficiently predict cell line-specific SDCs facilitating the discovery of rational combination therapies. It can learn and fuse the unique features of drug combinations in a specific cell line and their invariant patterns across different cell lines, and the common features can improve the prediction accuracy for each cell line. 
 
+![the schematic of SDCNet](./SDCNet/fig1.png)
+
+
 ## Requirements
 Python 3.8 or higher  
 pandas 1.3.5  
@@ -53,7 +56,7 @@ Please cite our work if you find our code/paper is useful to your work.
 @article{Zhang, 
 title={Predicting cell line-specific synergistic drug combinations through a relational graph convolutional network with attention mechanism}, 
 author={Peng Zhang, Shikui Tu, Wen Zhang, Lei Xu}, 
-journal={}, 
+journal={Briefs in Bioinformatics}, 
 volume={}, 
 number={}, 
 year={2022}, 
