@@ -1,8 +1,7 @@
 # SDCNet
 This is the implementation code of SDCNet, a GCN-based method, to efficiently predict cell line-specific SDCs facilitating the discovery of rational combination therapies. It can learn and fuse the unique features of drug combinations in a specific cell line and their invariant patterns across different cell lines, and the common features can improve the prediction accuracy for each cell line. 
 
-![the schematic of SDCNet](./fig1.png)
-
+![the schematic of SDCNet](https://github.com/yushenshashen/SDCNet/blob/main/fig1.pdf SDCNet)
 
 ## Requirements
 Python 3.8 or higher  
@@ -44,7 +43,7 @@ python get_sdcnet_bliss_load_pretrainmodel.py -modelfile ../trained_model/sdcnet
 python get_sdcnet_zip_load_pretrainmodel.py -modelfile ../trained_model/sdcnet_zip/best_model.ckpt  
 python get_sdcnet_hsa_load_pretrainmodel.py -modelfile ../trained_model/sdcnet_hsa/best_model.ckpt  
 
-We still use the O'Neil dataset as example to make the prediction through the pretrained model. The scripts are used to predict with the pretrained SDCNet model on the datasets with Loewe, Bliss, ZIP and HSA, respectively. The size of pretrained models are too large, so they are accessible with baidu netdisk [links](https://pan.baidu.com/s/1Pd1NtILT0RJZqajHCJKTDA), code: uysu.
+We still use the O'Neil dataset as example to make the prediction through the pretrained model. The scripts are used to predict with the pretrained SDCNet model on the datasets with Loewe, Bliss, ZIP and HSA, respectively. The size of pretrained models are too large, so they are accessible with baidu netdisk [https://pan.baidu.com/s/1Pd1NtILT0RJZqajHCJKTDA](https://pan.baidu.com/s/1Pd1NtILT0RJZqajHCJKTDA), code: uysu.
 
 ## Contact us
 pengzhang2020@sjtu.edu.cn
@@ -56,7 +55,7 @@ Please cite our work if you find our code/paper is useful to your work.
 @article{Zhang, 
 title={Predicting cell line-specific synergistic drug combinations through a relational graph convolutional network with attention mechanism}, 
 author={Peng Zhang, Shikui Tu, Wen Zhang, Lei Xu}, 
-journal={Briefs in Bioinformatics}, 
+journal={Briefings in bioinformatics}, 
 volume={}, 
 number={}, 
 year={2022}, 
